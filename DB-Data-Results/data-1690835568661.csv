@@ -1,0 +1,16 @@
+"schemaname","tablename","tableowner","tablespace","hasindexes","hasrules","hastriggers","rowsecurity"
+"public","actor","postgres",NULL,True,False,True,False
+"public","store","postgres",NULL,True,False,True,False
+"public","address","postgres",NULL,True,False,True,False
+"public","category","postgres",NULL,True,False,True,False
+"public","city","postgres",NULL,True,False,True,False
+"public","country","postgres",NULL,True,False,True,False
+"public","customer","postgres",NULL,True,False,True,False
+"public","film_actor","postgres",NULL,True,False,True,False
+"public","film_category","postgres",NULL,True,False,True,False
+"public","inventory","postgres",NULL,True,False,True,False
+"public","language","postgres",NULL,True,False,True,False
+"public","rental","postgres",NULL,True,False,True,False
+"public","staff","postgres",NULL,True,False,True,False
+"public","payment","postgres",NULL,True,False,True,False
+"public","film","postgres",NULL,True,False,True,False
