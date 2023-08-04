@@ -1,7 +1,7 @@
 # CanTek-SQL-Week
 <h3> SQL Assignments for CanTek's Data Analysis Cohort </h3>
 
-We Analysed the data for the <b> DVD Rental DB </b> - https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/ 
+We Analysed the data for the <b> [DVD Rental DB] </b> - (https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
 The SQL Queries and Scripts have been added with increasing order of Complexity. 
 
@@ -13,4 +13,4 @@ In addition to that, we have also used some <b> Advanced </b> SQL Concepts like 
 
 Thank you [Will]( https://github.com/tomwillcode ) for teaching and mentoring this Data Analysis Cohort.
 
-Thank you ([CanTek](https://www.cantekcanada.com) for conducting this Data Analysis Cohort.
+Thank you [CanTek](https://www.cantekcanada.com) for conducting this Data Analysis Cohort.
