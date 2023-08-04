@@ -1,23 +1,35 @@
-/*
-	Get List of Categories and Movies played by Actors grouped by ActorID
+ -- Refactored Query to Use STRING_AGG() and STRING_TO_ARRAY() functions to mimic a JSON like Structure
+ /*
+	Get List of Categories and Movies played by Actors Grouped By ActorID
+	Here we initially joined all the necessary Tables.
+	Then Since String Aggregate function, STRING_AGG() takes first argument as value, second as Separator and third as order by, 
+	We had to Concatenate Name and Title with [ str1 || seperator || str2 ] Syntax and then Seperate using ',' and Order by CategoryName
 */
+
 
 SELECT
 	actor.first_name,
 	actor.last_name,
-	Name,
-	Title
+	STRING_TO_ARRAY
+	(
+		STRING_AGG	(
+						Name || ' : ' || Title,
+						' , '
+						ORDER BY Name ASC
+					),
+		' , '		
+	) AS filName_by_category
 FROM
 	film
 INNER JOIN 
-	film_category ON film_category.film_id = film.film_id
+	film_category USING(film_id)
 INNER JOIN 
-	category ON category.category_id = film_category.category_id
+	category USING(category_id)
 INNER JOIN 
-	film_actor ON film_actor.film_id = film.film_id
+	film_actor USING(film_id)
 INNER JOIN 
-	actor ON actor.actor_id = film_actor.actor_id
+	actor USING (actor_id)
 GROUP BY 
-	actor.actor_id, Name, Title
+	actor.actor_id
 ORDER BY 
 	actor.actor_id;
