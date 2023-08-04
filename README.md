@@ -1,5 +1,5 @@
 # CanTek-SQL-Week
-<h4> SQL Assignments for CanTek's Data Analysis Cohort </h4>
+<h3> SQL Assignments for CanTek's Data Analysis Cohort </h3>
 
 We Analysed the data for the <b> DVD Rental DB </b> - https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/ 
 
