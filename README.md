@@ -11,4 +11,4 @@ One Query also takes into picture the <b> CASE-WHEN </b> struct
 
 In addition to that, we have also used some <b> Advanced </b> SQL Concepts like <b> Common Table Expressions OR String Aggregation Functions like STRING_AGG() and STRING_TO_ARRAY() </b>. 
 
-Thank you https://github.com/tomwillcode For this SQL Data Analysis Project.
+Thank you [ https://github.com/tomwillcode ] and [https://www.cantekcanada.com] For this SQL Data Analysis Project.
