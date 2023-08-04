@@ -1,4 +1,4 @@
--- Get Company-Wide Staff Information
+-- Get Company-Wide Staff Information - Refactored
 
 SELECT 
 	First_Name, 
@@ -7,7 +7,13 @@ SELECT
 	Phone,
 	Address, 
 	City, 
-	District AS Province_State, 
+	(
+	CASE
+		WHEN
+			District = 'QLD' THEN 'Queensland'
+		ELSE
+			District
+	END) AS Province_State,
 	Country
 FROM Staff
 INNER JOIN 
