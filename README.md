@@ -10,3 +10,5 @@ We have made use of <b> basic </b> SQL Constructs like <b> Table Joins, GroupBy 
 One Query also takes into picture the <b> CASE-WHEN </b> struct
 
 In addition to that, we have also used some <b> Advanced </b> SQL Concepts like <b> Common Table Expressions OR String Aggregation Functions like STRING_AGG() and STRING_TO_ARRAY() </b>. 
+
+Thank you https://github.com/tomwillcode For this SQL Data Analysis Project.
